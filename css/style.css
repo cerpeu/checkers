@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.ba-container-up-1 li:nth-child(odd), 
+.ba-container-up-3 li:nth-child(odd),
+.ba-container-up-5 li:nth-child(odd),
+.ba-container-up-7 li:nth-child(odd)
+{
+    background: #181410;
+}
+
+.ba-container-up-2 li:nth-child(even), 
+.ba-container-up-4 li:nth-child(even),
+.ba-container-up-6 li:nth-child(even),
+.ba-container-up-8 li:nth-child(even)
+{
+    background: #181410;
+}
+
+.ba-container-up-1 li:nth-child(even), 
+.ba-container-up-3 li:nth-child(even),
+.ba-container-up-5 li:nth-child(even),
+.ba-container-up-7 li:nth-child(even)
+{
+    background: #E3CBAF;
+}
+
+.ba-container-up-2 li:nth-child(odd), 
+.ba-container-up-4 li:nth-child(odd),
+.ba-container-up-6 li:nth-child(odd),
+.ba-container-up-8 li:nth-child(odd)
+{
+    background: #E3CBAF;
+}
+
+.ba-container{
+    margin: auto;
+    height: 500px;
+    width: auto;
+}
+
+.ba-container-up{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.ba-container-down{
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: 177px;
+    width: 120px;
+
+}
+
+.ba-border{
+    height: 300px;
+    width: 305px;
+    border: 1px solid #000;
+    border-radius: 2%;
+    position: absolute;
+    left: 125px;
+    top: 25px; 
+    background: #FFFA89;
+}
